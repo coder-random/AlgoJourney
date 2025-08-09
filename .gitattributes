@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
+# 自动处理换行符（跨Windows/Linux/macOS）
 * text=auto
+
+# 指定文件为文本
+*.md text
+*.txt text
+*.cpp text
+*.c text
+*.h text
+*.java text
+*.py text
+
+# 指定二进制文件
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.jpg binary
+*.png binary
+
+
+# 对 Markdown 渲染友好
+*.md linguist-language=Markdown
